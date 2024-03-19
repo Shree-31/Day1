@@ -1,0 +1,30 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: deepskyblue;
+    align-items: center;
+}
+
+nav{
+    display: flex;
+    column-gap: 30px;
+}
+
+nav p{
+    cursor: pointer;
+}
+
+nav p:hover{
+    text-decoration: underline;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: max-content;
+}
+fieldset{
+    background-color: rgb(116, 119, 124);
+    width: 300px;
+    height: 300px;
+}
